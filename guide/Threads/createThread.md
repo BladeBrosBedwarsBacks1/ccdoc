@@ -21,6 +21,12 @@ $createThread[
     {private=yes}
 ]
 ```
+::: tip
+```php
+$createThread[$channelID;$sentMessageID;New Thread;<@&1403404906433613969> was asked to create this thread.;3d;no;yes]
+```
+This adds a link inside the recently sent message (`$sentMessageID`) to the thread which is in the same channel as the message (`$channelID`) and calls the thread 'New Thread' (`New Thread`) and keeps the thread active for 3 Days (`3d`) because Custom Command (Mentions Custom Command) was asked to create the thread (`<@&1403404906433613969> was asked to create this thread.`) and the code doesn't return the ID of the thread (`no`) and the thread is private (`yes`).
+:::
 
 ::: danger
 You can only use the durations, allowed by your boosting level! Please do not try to use `7d` if your server hasn't got level 3 boosting perks
