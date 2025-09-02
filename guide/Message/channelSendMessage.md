@@ -1,5 +1,5 @@
 # $channelSendMessage
-Sends a message to a sepecified channel
+Sends a message to a specified channel
 
 #### Usage: `$channelSendMessage[channelID;message;return ID (yes/no) (optional, default=no)]`
 <br/>
