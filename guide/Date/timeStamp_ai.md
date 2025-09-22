@@ -30,6 +30,10 @@ Returns the current Unix timestamp (the number of milliseconds that have elapsed
 *   The first value `1630841854895` is the current time in milliseconds.
 *   The second value `1630841854` is the current time in seconds because we specified `yes` in the function call.
 
+::: warning
+The timestamp functions are currently not working properly and they go 50000 years past the intended timestamp.
+:::
+
 ##### Function difficulty: <Badge type="tip" text="Easy" vertical="middle" />
 
 ###### Tags: <Badge type="tip" text="return" vertical="middle" /> <Badge type="tip" text="time" vertical="middle" /> <Badge type="tip" text="miliseconds" vertical="middle" />
