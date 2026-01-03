@@ -17,3 +17,10 @@ Check out: [$setServerVar](../Variables/setServerVar.md)
 
 Check out: [$deleteServerVar](../Variables/deleteServerVar.md)
 :::
+::: tip For JSON variables with subvariable names in other variables
+```bash
+$let[theServerVar;$getServerVar[theServerVar]]
+$let[subvarName;name]
+The value for the subvariable $subvarName is $theServerVar[$subvarName].
+```
+:::
